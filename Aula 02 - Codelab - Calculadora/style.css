@@ -8,7 +8,8 @@
 }
 
 body {
-    background-color: #4F5462;
+    background: url(./pexels-marina-zasorina-7717505.jpg) no-repeat center center fixed; 
+    background-size: cover;
     font-family: Gotham Rounded, sans-serif;
     font-weight: normal;
     
@@ -17,10 +18,10 @@ body {
 .output{
     width: 350px;
     height: 120px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.6);
     opacity: 1;
     padding: 20px;
-    border: 7px solid rgba(255, 255, 255, 0.1);
+    border: 7px solid rgba(255, 255, 255, 0.5);
 }
 .previous-operand{
     color:#FFF;
@@ -30,7 +31,7 @@ body {
 }
 
 .current-operand{
-    color:#4BB364;
+    color:#357e46;
     font-size: 2rem;
     width: 300px;
     text-align: end;
@@ -56,7 +57,7 @@ body {
     justify-content: center;
     width: 350px;
     height: 420px;
-    background-color: rgba(255, 255, 255, 0.186);
+    background-color: rgba(255, 255, 255, 0.8);
     opacity: 1;
     padding-bottom: 15px;
 
@@ -67,12 +68,12 @@ body {
 }
 
 .numberlist > button:hover {
-    background-color: rgba(255, 255, 255, 0.734);
+    background-color: rgb(3, 39, 15, 0.4);
     box-shadow: 0px 0px #20212a3a;
 }
 
 .operator{
-    background-color:#4BB364;
+    background-color:#357e46;
     display:block;
     border-radius: 50%;
     border: none;
@@ -115,7 +116,7 @@ body {
     height: 60px;
     width: 140px;
     margin: 0.5rem;
-    background-color:#4BB364;
+    background-color:#357e46;
     border-radius: 1rem;
 
 }
