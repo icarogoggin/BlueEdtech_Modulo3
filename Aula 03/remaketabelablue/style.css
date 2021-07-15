@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+}
+
+header {
+    display: flex;
+    /* Alinha em X */
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+img {
+    width: 200px;
+}
+
+h1 {
+    font-size: 4em;
+    color: #3652e4;
+}
+
+h2 {
+    text-align: center;
+    color: #3652e4;
+    padding-bottom: 3rem;
+}
+
+.quadro {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.agenda {
+    background-color: #3652e4;
+    color: #fff;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* Quando vc usa o flex direction agora ele em Y */
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 10px #888888;
+    
+}
+
+.agenda:hover {
+    background-color: #4e67e4;
+}
+
+.presenca {
+    background-color: #3652e4;
+    color: #3652e4;
+    width: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* Quando vc usa o flex direction agora ele em Y */
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 10px #888888;
+    padding-bottom: 1.5rem;
+}
+
+.presenca:hover {
+    background-color: #4e67e4;
+}
+
+h3 {
+    color: #fff;
+    padding: 0.4rem 0;
+}
+
+table {
+    width: 90%;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+
+tr {
+    border: 4px solid #3652e4;
+}
+
+td, th {
+    padding: 0.4rem 0;
+    text-align: center;
+}
+
+@media(max-width: 1000px) {
+
+	.quadro {
+    		flex-direction: column;
+    		align-items: center;
+    		justify-content: center;
+	}
+	
+	.agenda {
+		padding-bottom: 1rem;
+	}
+	
+	.presenca {
+		margin-top: 2rem;
+		
+	}
+}
