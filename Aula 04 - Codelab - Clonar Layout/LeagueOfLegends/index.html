@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <title>Login - League Of Legends</title>
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <div class="login-top">
+                <img src="./logo.png" width="100px" alt="Logo">
+                <div class="language">
+                    <p>BR(PT)</p>
+                    <i id="globe"><img src="./language.svg" width="20px"></i>
+                </div>
+            </div>
+            <div class="login-body">
+                <p>LOGIN</p>
+                <form id="login" autocomplete="off">
+                    <input type="text" name="login" placeholder="NOME DE USUÁRIO">
+                    
+                    <input type="password" name="password" placeholder="SENHA">
+                    
+                    <div class="checkbox">
+                        <input type="checkbox" name="keep" id="keep">
+                        <label for="keep">Manter login</label>
+                    </div>
+                    
+                    <div class="button">
+                        <button type="submit" disabled>&#x279C;</button>
+                    </div>
+                </form>
+            </div>
+            <div class="login-bottom">
+                <a href="https://signup.br.leagueoflegends.com/pt/signup/index#/" target="_blank">Criar conta</a>
+                <a href="https://recovery.riotgames.com/pt-br/forgot-password?region=BR1" target="_blank">Não consegue iniciar sessão?</a>
+                <p class="version">v1.10.0</p>
+            </div>
+        </div>
+        <div class="background-container">
+            <div class="background-alert"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
