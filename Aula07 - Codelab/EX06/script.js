@@ -9,7 +9,7 @@ function checar() {
       caracPontos: 0,
       capsPontoss: 0
     }
-    if (senha.length < 4) {
+    if (senha.length < 12) {
       forca.tamPontos = 0;
     } else if (senha.length > 12) {
       forca.tamPontos = 1;
